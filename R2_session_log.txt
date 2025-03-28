@@ -1,0 +1,20 @@
+
+
+R2#
+R2#terminal width 511
+R2#terminal length 0
+R2#
+R2#show bgp vpnv4 unicast all summary
+R2#show bgp vpnv4 unicast all
+R2#ping vrf BLUE 172.16.10.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.10.2, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R2#ping vrf RED 172.16.20.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.20.2, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R2#
+R2#exit
